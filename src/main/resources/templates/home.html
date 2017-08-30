@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8" />
+<title>Your page title here :)</title>
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+	rel="stylesheet" type="text/css" />
+
+<!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/skeleton.css" />
+
+<!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+
+	<!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div class="container">
+		<div class="row">
+			<div class="one-half column" style="margin-top: 5%">
+				<h4>Basic Page</h4>
+				<p>
+					Lesekönig ist eine Webapplikation mit dessen Hilfe Bilder editiert, OCR gelesen und als PDF
+					exportiert werden können.
+				</p>
+	 
+				
+			<div th:replace="fragments/upload :: upload"></div>
+			
+			</div>
+			<br />
+			<div class="row">
+				<div class="full column" style="margin-top: 10%">
+					<table class="u-full-width">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Format</th>
+								<th>Dateigröße</th>
+								<th>Erstellungdatum</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Dave Gamache</td>
+								<td>26</td>
+								<td>Male</td>
+								<td>San Francisco</td>
+							</tr>
+							<tr>
+								<td>Dwayne Johnson</td>
+								<td>42</td>
+								<td>Male</td>
+								<td>Hayward</td>
+							</tr>
+							<tr>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
